@@ -58,7 +58,7 @@ echo " Please Wait "
 for x in {1..10};do
 echo ""
 sleep 0.2
-echo -e " \e[1;33m $ loading..$x% \e[0m "
+echo -e " \e[1;33m loading..$x% \e[0m "
 done
 echo -e ' \e[34m
 (1).Basic Packages
@@ -105,9 +105,13 @@ pip install lolcat
 pkg install scapy
 pip install scapy 
 pip2 install scapy
+pip3 install requests
+pip3 install colorama
 pkg install mariadb
 pkg install nano;;
 2)
+cd $HOME
+git clone https://github.com/AngelSecurityTeam/Cam-Hackers
 git clone https://github.com/BotolMehedi/bint
 git clone https://github.com/sqlmapproject/sqlmap;;
 3)
