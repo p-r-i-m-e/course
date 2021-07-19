@@ -76,7 +76,7 @@ echo""
 case $input in
 1)
 clear 
-cd $HOME
+cd /data/data/com.termux/files/home
 pkg update && pkg upgrade
 pkg install python3 -y
 pkg install wget 
@@ -110,7 +110,8 @@ pip3 install colorama
 pkg install mariadb
 pkg install nano;;
 2)
-cd $HOME
+clear
+cd /data/data/com.termux/files/home
 git clone https://github.com/AngelSecurityTeam/Cam-Hackers
 git clone https://github.com/BotolMehedi/bint
 git clone https://github.com/sqlmapproject/sqlmap;;
@@ -120,7 +121,7 @@ xdg-open https://www.facebook.com/prime 127.0.0 ;;
 mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','|','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings && sleep 1 && logout ;;
 5)
 clear
-cd $HOME ;;
+cd /data/data/com.termux/files/home ;;
 *)
 echo " Sorry Your Choice is not Include.";;
 esac
