@@ -118,7 +118,7 @@ git clone https://github.com/AngelSecurityTeam/Cam-Hackers
 git clone https://github.com/BotolMehedi/bint
 git clone https://github.com/sqlmapproject/sqlmap;;
 3)
-xdg-open https://www.facebook.com/prime 127.0.0 ;;
+xdg-open https://www.facebook.com/P.R.I.M.E.127.0.0.1 ;;
 4)
 mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','|','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings && sleep 1 && logout ;;
 5)
